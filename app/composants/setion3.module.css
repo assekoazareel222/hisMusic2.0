@@ -1,0 +1,86 @@
+.containe {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../public/back.png);
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.contentText {
+  height: 100%;
+  width: 40%;
+  margin-left: 5%;
+}
+.contentR {
+  height: 100%;
+  width: 60%;
+  display: flex;
+
+  position: relative;
+}
+.image {
+  position: absolute;
+  margin-top: 29%;
+  height: 100%;
+  width: 60%;
+  background-image: url(../public/img.png);
+  transform: scale(1.7);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1000;
+  object-fit: cover;
+  z-index: 1000;
+}
+.formBtn {
+  position: absolute;
+  left: 48%;
+  height: 100%;
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  height: 7%;
+  width: 80%;
+  background-color: white;
+  border-radius: 15px;
+}
+.form {
+  height: 50%;
+  border-radius: 15px;
+  width: 100%;
+  background-color: black;
+  border-radius: 15px;
+}
+.contentText {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  color: black;
+  font-size: 18px;
+}
+.titre {
+  font-weight: bold;
+  font-size: 32px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nom {
+  font-family: cursive;
+  font-size: 32px;
+  font-weight: 400;
+}
+.video {
+  height: 45%;
+  width: 110%;
+  background-color: aqua;
+  margin-bottom: 18%;
+}
