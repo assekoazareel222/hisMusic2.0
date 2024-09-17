@@ -1,6 +1,12 @@
 import styles from "./section5.module.css";
 import Image from "next/image";
+import { formulaire } from "./formulaire";
+ 
 
 export const Section5 = () => {
-  return <div className={styles.contain}></div>;
+  return <div className={styles.contain}>
+
+   
+
+  </div>;
 };
