@@ -25,9 +25,7 @@ export default function Home() {
     loop
     controls
   />
-</div>
-
-
+  </div>
         <h2 className="mt-7">
           CURRICULUM PROFESSIONNEL - UNIQUE DANS LE MONDE FRANCOPHONE - FORMATION DIPLÔMANTE
         </h2>
