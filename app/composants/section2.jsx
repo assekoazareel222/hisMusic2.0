@@ -1,4 +1,5 @@
 import styles from "./section2.module.css";
+import { Button } from "./button";
 
 import Image from "next/image";
 
@@ -39,7 +40,9 @@ export const Section2 = () => {
         <div className={styles.insides}></div>
         <div className={styles.inside}></div>
       </div>
-      <div className={styles.btn}></div>
+      <div className={styles.btn}>
+        <Button />
+      </div>
       <div className={styles.form}></div>
     </div>
   );
