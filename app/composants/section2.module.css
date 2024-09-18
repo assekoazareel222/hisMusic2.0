@@ -74,7 +74,7 @@
   font-weight: 700;
 }
 .span {
-  color:rgba(255, 192, 0, 1);
+  color: rgba(255, 192, 0, 1);
   font-size: 32px;
   font-weight: bolder;
   line-height: 0.5;
@@ -128,7 +128,34 @@
   border-radius: 10px;
   background-color: rgb(8, 25, 77);
   transform: scale(1.1);
-  border: solid  rgba(255, 192, 0, 1) 3px;
+  border: solid var(--jaune, 0.1) 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  gap: 5px;
+  padding: 2%;
+}
+.souscrire {
+  height: 13%;
+  width: 70%;
+  font-size: 13px;
+  background-color: var(--jaune);
+  border-radius: 5px;
+}
+.souscrire:hover {
+  background-color: white;
+  color: var(--jaune);
+  transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .form {
   position: absolute;

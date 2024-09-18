@@ -1,5 +1,6 @@
 import styles from "./setion3.module.css";
 import { Button } from "./button";
+import Link from "next/link";
 
 import Image from "next/image";
 
@@ -26,7 +27,15 @@ export const Section3 = () => {
       <div className={styles.contentR}>
         <div className={styles.image}></div>
         <div className={styles.formBtn}>
+<<<<<<< HEAD
           <button className={styles.btn}>SOUSCRIRE MAINTENANT</button>
+=======
+          <button className={styles.btn}>
+            <Link href="https://hismusicinstitute.com/">
+              SOUSCRIRE MAINTENANT
+            </Link>
+          </button>
+>>>>>>> 8ee64f658465766c28e3290506ef14805c4fd5bd
           <div className={styles.form}></div>
         </div>
       </div>
