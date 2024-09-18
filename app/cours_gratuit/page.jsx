@@ -4,24 +4,22 @@ import React from "react";
 export default function Home() {
   return (
     <div className={styles.containe}>
-      <div className="relative -start-[570px]">
+      <div className="relative -start-[590px]">
         <h1 className={styles.img}></h1>
       </div>
 
-      <div>
+      <div className="items-center justify-center flex w-[100%] h-[50%]">
         <iframe
-          width="900"
-          height="450"
+          style={{ width: "85%", height: "160%" }} // Utilise les pourcentages ici
           src="https://www.youtube.com/embed/KqEj6X09NSk?si=tXIRE60hOn_OmR33"
           title="YouTube video player"
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
       </div>
 
-      <h2 className="mt-7 flex text-white text-xl font-medium">
+      <h2 className="flex text-white text-2xl font-medium mt-5">
         {" "}
         CURRICULUM PROFESSIONNEL -{" "}
         <p className="text-yellow-500">UNIQUE DANS LE MONDE FRANCOPHONE</p> -

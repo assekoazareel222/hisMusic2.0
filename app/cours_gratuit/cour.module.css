@@ -12,6 +12,7 @@
     object-fit: cover;
     position: relative;
     padding: 30px;
+    gap: 16%;
     }
 
 .img {
