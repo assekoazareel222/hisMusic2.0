@@ -5,6 +5,7 @@ import { Section3 } from "./composants/section3";
 import { Section4 } from "./composants/section4";
 import { Section5 } from "./composants/section5";
 import { Section6 } from "./composants/section6";
+import { formulaire } from "./composants/formulaire";
 
 export default function Home() {
   return (
