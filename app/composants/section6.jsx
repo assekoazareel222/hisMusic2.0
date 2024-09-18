@@ -1,6 +1,6 @@
 import styles from "./section6.module.css";
 import Image from "next/image";
-
+import { Button } from "./button";
 export const Section6 = () => {
   return (
     <div className={styles.contain}>
@@ -69,7 +69,9 @@ export const Section6 = () => {
           <div className={styles.laptop}></div>
           <div className={styles.phone}></div>
           <div className={styles.form}></div>
-          <button className={styles.button}>SOUSCRIRE MAINTENANT</button>
+          <button className={styles.button}>
+            <Button />
+          </button>
         </div>
       </div>
     </div>
