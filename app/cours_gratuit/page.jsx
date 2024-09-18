@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="items-center justify-center flex w-[100%] h-[50%]">
         <iframe
-          style={{ width: "85%", height: "160%" }} // Utilise les pourcentages ici
+          style={{ width: "60%", height: "140%" }} // Utilise les pourcentages ici
           src="https://www.youtube.com/embed/KqEj6X09NSk?si=tXIRE60hOn_OmR33"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

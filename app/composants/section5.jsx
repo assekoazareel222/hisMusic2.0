@@ -1,7 +1,7 @@
 import styles from "./section5.module.css";
 import Image from "next/image";
 import { formulaire } from "./formulaire";
-
+import { Button } from "./button";
 export const Section5 = () => {
   return (
     <div className={`${styles.contain}`}>
@@ -112,7 +112,9 @@ export const Section5 = () => {
           <h1>formulare</h1>
         </div>
       </section>
-      <div className="w-[180px] h-[70px] bg-black mt-8">button</div>
+      <div className="w-[20%] h-[10%] mt-8">
+        <Button />
+      </div>
     </div>
   );
 };
