@@ -1,6 +1,5 @@
 import styles from "./formulaire1.module.css";
 
-
 export const Form = () => {
   return (
     <div className={styles.Form}>
