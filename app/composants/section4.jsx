@@ -36,7 +36,7 @@ export const Section4 = () => {
           </div>
         </div>
         <div className={styles.middle}>
-         <Form/>
+         <Form />
         </div>
 
         <div className={styles.right}>

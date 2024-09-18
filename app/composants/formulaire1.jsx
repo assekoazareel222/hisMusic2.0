@@ -1,5 +1,5 @@
 import styles from "./formulaire1.module.css";
-import { Input } from "./Input";
+
 
 export const Form = () => {
   return (
@@ -35,6 +35,7 @@ export const Form = () => {
 
           <button type="submit" className="border-2 border-white text-white font-bold px-[20px] py-[10px] rounded-[10px] mt-[20px]">S'INSCRIRE MAINTENANT</button>
         </form>
+        
       </div>
     </div>
   );
