@@ -21,11 +21,7 @@
 }
 .image {
   position: absolute;
-<<<<<<< HEAD
   margin-top: 25%;
-=======
-  margin-top: 15%;
->>>>>>> origin/jeancalude
   height: 100%;
   width: 60%;
   background-image: url(../public/img.png);

@@ -1,10 +1,8 @@
 import styles from "./section5.module.css";
 import Image from "next/image";
 import { formulaire } from "./formulaire";
- 
 
 export const Section5 = () => {
-<<<<<<< HEAD
   return (
     <div className={`${styles.contain}`}>
       <section className="flex gap-12">
@@ -117,11 +115,4 @@ export const Section5 = () => {
       <div className="w-[180px] h-[70px] bg-black mt-8">button</div>
     </div>
   );
-=======
-  return <div className={styles.contain}>
-
-   
-
-  </div>;
->>>>>>> origin/jeancalude
 };
