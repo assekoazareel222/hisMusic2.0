@@ -78,8 +78,8 @@ export const Section5 = () => {
             </section>
             {/* setion bloc3 */}
             <section
-             className="w-[400px] h-[400px] border-none rounded-2xl mt-15 flex flex-col items-center justify-center bg-white"
-             style={{ transform: "rotate(5deg)" }}
+              className="w-[400px] h-[400px] border-none rounded-2xl mt-15 flex flex-col items-center justify-center bg-white"
+              style={{ transform: "rotate(5deg)" }}
             >
               <div className="flex flex-col gap-8">
                 <div className="flex gap-6 mt-8">
