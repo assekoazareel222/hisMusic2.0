@@ -1,33 +1,12 @@
-
+import { Input } from "./Input";
 
 export const Formulaire = () =>  {
     return(
-    <div className="w-[00px] h-[300px]">
-        <main className="bg-[white]">
-            <h1>DÉBUTEZ VOTRE <br/> FORMATION <br/> DIPLÔMANTE</h1>
-         </main>
-         <form className="flex flex-col bg-[#] ">
-            <input type="text" placeholder="Votre Nom"/>
-            <input type="text" placeholder="Votre Prenom"/>
-            <input type="email" placeholder="Votre Email"/>
-
-            <div className="">
-            <input  type="number" placeholder="Pays (indicatif)"/>
-            <input type="number" placeholder="Téléphone"/>
-            </div>  
-
-            <div className="">
-                <input type="checkbox" name="" id="" />
-                <label htmlFor="">J'accepte de recevoir des communications<br/>
-                marketing de la part de Hismusic Institute.</label>
-            </div>
-            
-
-            <input type="submit" value="S’INCRIRE MAINTENANT" />
-
-
-         </form>
-
+    <div className="bg-black w-[300px] h-[500px] m-[100px] flex flex-col items-center justify-center rounded-lg ">
+       <p className="text-white text-[18px] text-justify">
+       Remplissez le formulaire <br/> ci-dessous pour obtenir un<br/> <span className="pl-[0px] pt-[100px] font-[800] text-[28px]">COURS GRATUIT</span>
+        </p>
+       <Input/>
     </div>
     );
 }

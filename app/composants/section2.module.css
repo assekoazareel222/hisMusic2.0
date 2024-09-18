@@ -74,7 +74,7 @@
   font-weight: 700;
 }
 .span {
-  color: var(--jaune);
+  color:rgba(255, 192, 0, 1);
   font-size: 32px;
   font-weight: bolder;
   line-height: 0.5;
@@ -110,7 +110,7 @@
   border-radius: 10px;
   background-color: rgb(8, 25, 77);
   transform: scale(1.1);
-  border: solid var(--jaune) 2px;
+  border: solid  rgba(255, 192, 0, 1) 3px;
 }
 .form {
   position: absolute;

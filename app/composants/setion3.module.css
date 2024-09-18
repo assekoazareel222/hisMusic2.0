@@ -21,11 +21,11 @@
 }
 .image {
   position: absolute;
-  margin-top: 20%;
+  margin-top: 15%;
   height: 100%;
   width: 60%;
   background-image: url(../public/img.png);
-  transform: scale(1.7);
+  transform: scale(1.6);
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1000;
