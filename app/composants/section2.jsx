@@ -35,14 +35,39 @@ export const Section2 = () => {
         </div>
       </div>
       <div className={styles.box}>
-        <div className={styles.inside}></div>
-        <div className={styles.inside}></div>
-        <div className={styles.insides}></div>
-        <div className={styles.inside}></div>
+        <div className={styles.inside}>
+          <p>
+            18 <br />
+            Cours{" "}
+          </p>
+        </div>
+        <div className={styles.inside}>
+          {" "}
+          <p>
+            50 GB <br />
+            de vidéo{" "}
+          </p>
+        </div>
+        <div className={styles.insides}>
+          <p>
+            DIPLÔME
+            <br />
+            D'ASSISTANT <br />
+            INGÉNIEUR{" "}
+          </p>
+          <button className={styles.souscrire}>SOUSCRIRE</button>
+        </div>
+        <div className={styles.inside}>
+          <p>
+            Examens
+            <br />
+            pratiques{" "}
+          </p>
+        </div>
       </div>
-      <div className={styles.btn}>
+      <button className={styles.btn}>
         <Button />
-      </div>
+      </button>
       <div className={styles.form}></div>
     </div>
   );

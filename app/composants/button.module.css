@@ -7,5 +7,16 @@
   left: 50%;
   font-size: 22px;
   color: #fff;
-  font-weight: bold;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  color: var(--jaune);
+  background-color: white;
+  transform: scale(1.1);
 }
