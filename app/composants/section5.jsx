@@ -4,16 +4,15 @@ import Image from "next/image";
 export const Section5 = () => {
   return (
     <div className={`${styles.contain}`}>
-      <section className="flex gap-12">
+      <section className="flex gap-0 relative h-full">
         <div className="flex flex-col">
           {/* setion bloc1 */}
-          <h1 className="font-bold text-5xl text-white mt-16 ml-12">
-            Que disent <br></br>
-            les apprenants
-          </h1>
-          <div className="flex ml-16 mt-20 gap-0">
+          <div className={`${styles.h1t} font-bold flex flex-col text-5xl absolute text-white mt-16 ml-12`}>
+            <p>Que disent les apprenants</p>
+         </div>
+          <div className="flex ml-16 mt-20 gap-0 relative h-full w-full">
             <section
-              className="w-[400px] h-[400px] border-none rounded-2xl flex flex-col mb-12 items-center justify-center bg-white"
+              className={`${styles.blocs1} w-[400px] h-[400px] border-none rounded-3xl flex absolute flex-col mb-12 items-center justify-center bg-white`}
               style={{ transform: "rotate(3deg)" }}
             >
               <div className="flex flex-col gap-8">
@@ -45,8 +44,8 @@ export const Section5 = () => {
             </section>
             {/* setion bloc2 */}
             <section
-              className="w-[400px] h-[400px] border-none rounded-2xl mt-15 flex flex-col items-center justify-center bg-white"
-              style={{ transform: "rotate(-3deg)" }}
+              className={`${styles.blocs2} w-[400px] h-[400px] border-none rounded-3xl flex absolute flex-col mb-12 items-center justify-center bg-white`}
+              style={{ transform: "rotate(-4deg)" }}
             >
               <div className="flex flex-col gap-8">
                 <div className="flex gap-6 mt-8">
@@ -78,8 +77,8 @@ export const Section5 = () => {
             </section>
             {/* setion bloc3 */}
             <section
-             className="w-[400px] h-[400px] border-none rounded-2xl mt-15 flex flex-col items-center justify-center bg-white"
-             style={{ transform: "rotate(5deg)" }}
+               className={`${styles.blocs3} w-[400px] h-[400px] border-none rounded-3xl flex absolute flex-col mb-12 items-center bg-white`}
+               style={{ transform: "rotate(4deg)" }}
             >
               <div className="flex flex-col gap-8">
                 <div className="flex gap-6 mt-8">
@@ -107,11 +106,11 @@ export const Section5 = () => {
             </section>
           </div>
         </div>
-        <div className="flex w-[400px] h-[500px] bg-black">
+        <div className= {`${styles.forms} flex w-[350px] h-[580px] bg-black absolute`}>
           <h1>formulare</h1>
         </div>
       </section>
-      <div className="w-[180px] h-[70px] bg-black mt-8">button</div>
+      <div className="w-[180px] h-[70px] bg-black mb-10">button</div>
     </div>
   );
 };

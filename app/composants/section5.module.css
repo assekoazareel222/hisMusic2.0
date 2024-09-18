@@ -35,3 +35,47 @@
   background-repeat: no-repeat;
   margin-left: 10px;
 }
+.blocs1{
+  position: absolute;
+  right: 670%;
+  border: solid black 2PX;
+  top: 27%;
+  box-shadow: -5px -8px 15px rgba(128, 128, 128, 0.8);
+  /* z-index:100; */
+
+}
+.blocs2{
+  position: absolute;
+  right: 70%;
+  border: solid black 2PX;
+  top: 30%;
+  z-index:100;
+  box-shadow: -5px -8px 15px rgba(128, 128, 128, 0.8);
+
+}
+.blocs3{
+  position: absolute;
+  /* right: px; */
+  /* left: 5%; */
+  border: solid black 2PX;
+  z-index:100;
+  /* bottom: ; */
+  top: 27%;
+ box-shadow: -5px -8px 15px rgba(128, 128, 128, 0.8);
+
+}
+.h1t{
+  position: absolute;
+  right: 900%;
+  /* border: solid black 2PX; */
+  /* bottom: 10%; */
+
+}
+.forms{
+  position: absolute;
+  left: 800%;
+  border: solid black 2PX;
+  z-index:100;
+  bottom: 19%; 
+
+}
