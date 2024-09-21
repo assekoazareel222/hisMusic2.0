@@ -5,7 +5,7 @@ import { Form } from "./formulaire1";
 export const Header = () => {
   return (
     <div className={styles.backgroundContainer}>
-      <div className={styles.logo}>
+      {/* <div className={styles.logo}>
         <div className={styles.img}></div>
       </div>
       <div className={styles.content}>
@@ -46,7 +46,7 @@ export const Header = () => {
           <li>- UNIQUE DANS LA FRANCOPHONIE</li>
           <li className={styles.white}>- FORMATION DIPLÔMANTE</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
