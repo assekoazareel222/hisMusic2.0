@@ -24,7 +24,7 @@
   margin-top: 45%;
   height: 100%;
   width: 60%;
-  background-image: url(../public/img.png);
+  /* background-image: url(../public/img.png); */
   transform: scale(1.7);
   background-size: contain;
   background-repeat: no-repeat;

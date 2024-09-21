@@ -6,10 +6,10 @@ import { Form } from "./formulaire1";
 export const Section4 = () => {
   return (
     <div className={styles.contain}>
-      <div className="flex flex-row justify-evenly items-baseline">
-        <div className="w-[400px] h-[600px]">
-          <div className="text-[40px] font-extrabold text-gray-500"> Pourquoi <br/> Hismusic Institute ?</div>
-          <div className="mt-[20px] text-[16px]">
+      <div className="">
+        <div className="flex flex-row text-center">
+          <div className="text-[5rem] font-extrabold text-[#132254] w-[450px]"> Pourquoi Hismusic Institute ?</div>
+          <div className="mt-[20px] text-[16px] text-[#132254] w-[400px] h-[600px]">
             <p>
               Durant ses passionnantes études d’ingénierie du son aux USA,
               Hyacine do Rego nourrissait le désir de transférer à d’autres le
@@ -35,12 +35,8 @@ export const Section4 = () => {
             </p>
           </div>
         </div>
-        <div className={styles.middle}>
-         <Form />
-        </div>
-
         <div className={styles.right}>
-        <Formulaire />
+        
         </div>
       </div>
     </div>
