@@ -118,17 +118,17 @@
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border: solid var(--jaune) 1px;
+  border: solid rgba(255, 192, 0, 1) 1px;
 }
 .insides {
   height: 70%;
   margin: 5px;
-  margin-left: 15px;
+  margin-left:5px;
   width: 25%;
   border-radius: 10px;
   background-color: rgb(8, 25, 77);
   transform: scale(1.1);
-  border: solid var(--jaune, 0.1) 2px;
+  border: solid rgba(255, 192, 0, 1) 2px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -144,12 +144,12 @@
   height: 13%;
   width: 70%;
   font-size: 13px;
-  background-color: var(--jaune);
+  background-color:rgba(255, 192, 0, 1);
   border-radius: 5px;
 }
 .souscrire:hover {
   background-color: white;
-  color: var(--jaune);
+  color: rgba(255, 192, 0, 1);
   transform: scale(1.1);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

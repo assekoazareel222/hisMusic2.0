@@ -11,7 +11,7 @@ export const Section3 = () => {
         <div className={styles.titre}>Le mot de l’instructeur</div>
 
         <div className={styles.text}>
-          <div className={styles.nom}>Hyasine Do Rego</div>
+          <div className={styles.nom}>Hyacine Do Rego</div>
           <p>
             Fondateur & Ingénieur en Chef à <strong>HDR Live</strong> <br />
             Fondateur & Instructeur principal à{" "}
@@ -27,15 +27,11 @@ export const Section3 = () => {
       <div className={styles.contentR}>
         <div className={styles.image}></div>
         <div className={styles.formBtn}>
-<<<<<<< HEAD
-          <button className={styles.btn}>SOUSCRIRE MAINTENANT</button>
-=======
           <button className={styles.btn}>
             <Link href="https://hismusicinstitute.com/">
               SOUSCRIRE MAINTENANT
             </Link>
           </button>
->>>>>>> 8ee64f658465766c28e3290506ef14805c4fd5bd
           <div className={styles.form}></div>
         </div>
       </div>

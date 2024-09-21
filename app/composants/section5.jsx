@@ -1,7 +1,8 @@
 import styles from "./section5.module.css";
 import Image from "next/image";
 import { formulaire } from "./formulaire";
-import { Button } from "./button";
+ 
+
 export const Section5 = () => {
   return (
     <div className={`${styles.contain}`}>
@@ -79,13 +80,8 @@ export const Section5 = () => {
             </section>
             {/* setion bloc3 */}
             <section
-<<<<<<< HEAD
              className="w-[400px] h-[400px] border-none rounded-2xl mt-15 flex flex-col items-center justify-center bg-white"
              style={{ transform: "rotate(5deg)" }}
-=======
-              className="w-[400px] h-[400px] border-none rounded-2xl mt-15 flex flex-col items-center justify-center bg-white"
-              style={{ transform: "rotate(5deg)" }}
->>>>>>> 8ee64f658465766c28e3290506ef14805c4fd5bd
             >
               <div className="flex flex-col gap-8">
                 <div className="flex gap-6 mt-8">
@@ -117,13 +113,7 @@ export const Section5 = () => {
           <h1>formulare</h1>
         </div>
       </section>
-<<<<<<< HEAD
       <div className="w-[180px] h-[70px] bg-black mt-8">button</div>
-=======
-      <div className="w-[20%] h-[10%] mt-8">
-        <Button />
-      </div>
->>>>>>> 8ee64f658465766c28e3290506ef14805c4fd5bd
     </div>
   );
 };

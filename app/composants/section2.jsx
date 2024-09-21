@@ -56,13 +56,9 @@ export const Section2 = () => {
             D'ASSISTANT <br />
             INGÉNIEUR{" "}
           </p>
-<<<<<<< HEAD
-          <button className={styles.souscrire}>SOUSCRIRE</button>
-=======
           <button className={styles.souscrire}>
             <Link href="https://hismusicinstitute.com/">SOUSCRIRE </Link>
           </button>
->>>>>>> 8ee64f658465766c28e3290506ef14805c4fd5bd
         </div>
         <div className={styles.inside}>
           <p>

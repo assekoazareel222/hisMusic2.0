@@ -12,7 +12,7 @@ export const Header = () => {
         <div className={styles.contentTexte}>
           <div className={styles.texte}>
             <p className={styles.titre1}>
-              ASSITANT <br /> INGÉNIEURE DU SON
+              ASSITANT <br /> INGÉNIEUR DU SON
             </p>
             <p className={styles.titre2}>FORMATION</p>
             <div className={styles.group}>
