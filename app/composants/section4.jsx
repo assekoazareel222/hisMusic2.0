@@ -7,9 +7,9 @@ export const Section4 = () => {
   return (
     <div className={styles.contain}>
       <div className="">
-        <div className="flex flex-row text-center">
-          <div className="text-[5rem] font-extrabold text-[#132254] w-[450px]"> Pourquoi Hismusic Institute ?</div>
-          <div className="mt-[20px] text-[16px] text-[#132254] w-[400px] h-[600px]">
+        <div className="flex flex-row justify-center items-center py-[0px]">
+          <div className="text-[5rem] font-extrabold text-[#132254] w-[450px] text-justify"> Pourquoi Hismusic Institute ?</div>
+          <div className=" text-[20px] text-[#132254] w-[900px]  mt-[500px]">
             <p>
               Durant ses passionnantes études d’ingénierie du son aux USA,
               Hyacine do Rego nourrissait le désir de transférer à d’autres le
@@ -33,9 +33,11 @@ export const Section4 = () => {
                 professionnelle l’unique du genre dans le monde
                 francophone.
             </p>
+
+            <button type="button" className="text-[#fff] bg-[#132254] text-[20px] uppercase ml-[550px] mt-[100px] px-[15px] py-[10px] rounded-[20px]">Débuter la Formation</button>
           </div>
         </div>
-        <div className={styles.right}>
+        <div className="">
         
         </div>
       </div>
