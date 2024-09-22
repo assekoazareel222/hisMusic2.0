@@ -52,7 +52,7 @@ export default function Home() {
             <p className="bg-white w-80 h-24 text-center rounded-tl-xl rounded-tr-xl  justify-center items-center flex font-bold text-xl">POUR CONTINUER,<br /> SOUSCRIVEZ À NOTRE <br />FORMATION ONLINE</p>
             <a
               href="https://www.exemple.com"
-              className="bg-yellow-400 hover:bg-yellow-700 rounded-bl-xl rounded-br-xl text-yellow-400 font-bold py-2 px-4 w-80 h-36 flex justify-center items-center"
+              className="bg-yellow-400 hover:bg-yellow-500 rounded-bl-xl rounded-br-xl text-yellow-400 font-bold py-2 px-4 w-80 h-36 flex justify-center items-center"
             >
               <p className="w-36 h-16 bg-white items-center flex justify-center rounded-md text-center">
                 {" "}
