@@ -21,11 +21,11 @@
 }
 .image {
   position: absolute;
-  margin-top: 29%;
+  margin-top: 25%;
   height: 100%;
   width: 60%;
   background-image: url(../public/img.png);
-  transform: scale(1.7);
+  transform: scale(1.6);
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1000;
@@ -46,8 +46,29 @@
 .btn {
   height: 7%;
   width: 80%;
-  background-color: white;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  color: var(--jaune);
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1000;
+}
+.btn:hover {
+  color: white !important;
+  background-color: var(--jaune) !important;
+  transform: scale(1.1) !important;
+  border: solid white 1px;
 }
 .form {
   height: 50%;
@@ -79,8 +100,10 @@
   font-weight: 400;
 }
 .video {
-  height: 45%;
+  height: 50%;
   width: 110%;
-  background-color: aqua;
   margin-bottom: 18%;
+  background-image: url(../public/Capture\ d’écran\ du\ 2024-09-17\ 16-24-01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }

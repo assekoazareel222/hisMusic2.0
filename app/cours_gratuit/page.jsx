@@ -38,9 +38,14 @@ export default function Home() {
 
       <div className="relative items-center justify-center flex w-[100%] h-[50%]">
         <iframe
+<<<<<<< HEAD
           id="youtube-player"
           style={{ width: "70%", height: "150%" }}
           src="https://www.youtube.com/embed/KqEj6X09NSk?enablejsapi=1"
+=======
+          style={{ width: "60%", height: "140%" }} // Utilise les pourcentages ici
+          src="https://www.youtube.com/embed/KqEj6X09NSk?si=tXIRE60hOn_OmR33"
+>>>>>>> b947edb02808c6269b38eef4decff4f1cfeb1f37
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
