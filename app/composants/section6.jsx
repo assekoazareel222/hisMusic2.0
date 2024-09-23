@@ -34,7 +34,7 @@ export const Section6 = () => {
               </li>
               <li className={styles.li}>EQ GRAPHIQUE</li>
               <li className={styles.li}>EQ PARAMETRE</li>
-              <li className={styles.li}>TECHNIQUE D'EQ</li>
+              <li className={styles.li}>TECHNIQUE D&EQ</li>
             </ul>
             <ul className={styles.ul}>
               <li className={styles.li}>
