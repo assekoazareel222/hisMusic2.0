@@ -64,16 +64,9 @@ export const Section6 = () => {
         </div>
       </div>
       <div className={styles.right}>
-        {" "}
-        <div className={styles.Image}>
-          <div className={styles.laptop}></div>
-          <div className={styles.phone}></div>
-          <div className={styles.form}></div>
-          <button className={styles.button}>
-            <Button />
-          </button>
-        </div>
+        <div className={styles.img}></div>
       </div>
+      <button className={styles.button}>Debuter la formation</button>
     </div>
   );
 };

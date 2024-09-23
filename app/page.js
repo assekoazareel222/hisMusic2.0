@@ -9,12 +9,14 @@ import { Section6 } from "./composants/section6";
 export default function Home() {
   return (
     <>
-      <Header />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
+      <div className="body">
+        <Header />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+      </div>
     </>
   );
 }

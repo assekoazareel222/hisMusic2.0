@@ -6,69 +6,34 @@ import Image from "next/image";
 export const Section2 = () => {
   return (
     <div className={styles.containe}>
-      <div className={styles.img}></div>
-      <div className={styles.cadrant}>
-        <div className={styles.top}>
-          <div className={styles.bull}></div>
-          <div className={styles.bull}></div>
-          <div className={styles.bull}></div>
-        </div>
-        <div className={styles.middle}>
-          <div className={styles.left}>
-            <div className={styles.logo}></div>
-            <div className={styles.textM}>
-              <p>
-                DEVENEZ UN ASSISTANT <br /> INGÉNIEUR DU SON <br />{" "}
-                <span className={styles.span}>DIPLÔMÉ</span>{" "}
-              </p>
-            </div>
-            <div className={styles.textB}>
-              <p>
-                {" "}
-                Avec un curriculum professionnel <br />{" "}
-                <strong>unnique dans le monde francophone</strong>
-                <br /> Accessible où que vous soyez{" "}
-              </p>
-            </div>
-          </div>
-          <div className={styles.right}></div>
-        </div>
-      </div>
       <div className={styles.box}>
         <div className={styles.inside}>
-          <p>
-            18 <br />
-            Cours{" "}
-          </p>
-        </div>
-        <div className={styles.inside}>
-          {" "}
-          <p>
-            50 GB <br />
-            de vidéo{" "}
-          </p>
-        </div>
-        <div className={styles.insides}>
-          <p>
-            DIPLÔME
-            <br />
-            D'ASSISTANT <br />
-            INGÉNIEUR{" "}
-          </p>
-          <button className={styles.souscrire}>SOUSCRIRE</button>
-        </div>
-        <div className={styles.inside}>
-          <p>
-            Examens
-            <br />
-            pratiques{" "}
-          </p>
+          <div className={styles.text}>
+            <strong className={styles.text1}>
+              Devenez un assistant ingénieur du son diplômé. <br />{" "}
+            </strong>
+            Avec un curriculum professionnel unique dans le monde francophone.
+            Accessible où que vous soyez.
+          </div>
+          <div className={styles.cadre}>
+            <div className={styles.element}>
+              18 <br /> cours
+            </div>
+            <div className={styles.element}>
+              50 GB <br /> de videos
+            </div>
+            <div className={styles.element1}>
+              Diplôme <br /> d’assistant <br />
+              ingénieur
+            </div>
+            <div className={styles.element}>
+              Examens <br />
+              pratiques
+            </div>
+          </div>
+          <button className={styles.button}>Debuter la formation</button>
         </div>
       </div>
-      <button className={styles.btn}>
-        <Button />
-      </button>
-      <div className={styles.form}></div>
     </div>
   );
 };

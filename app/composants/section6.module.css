@@ -1,9 +1,10 @@
 .contain {
-  height: 100vh;
+  height: 1119px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .left {
   width: 50%;
@@ -13,58 +14,27 @@
   padding: 3%;
 }
 .right {
+  width: 50%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
   width: 80%;
-  background: linear-gradient(rgba(0, 138, 207, 0.685), rgba(4, 152, 226, 0.5)),
-    url(../public/Page6\ Bckground.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  position: relative;
-}
-.Image {
-  top: 20%;
-  right: 60%;
-  position: absolute;
   height: 50%;
-  width: 70%;
-  z-index: 1000;
-}
-.laptop {
-  height: 100%;
-  width: 100%;
   background-image: url(../public/Mac+Phone.png);
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-}
-.form {
-  position: absolute;
-  left: 130%;
-  height: 90%;
-  width: 45%;
-  bottom: 40%;
-  border-radius: 20px;
-  background-color: black;
-}
-
-.button {
-  position: absolute;
-  height: 17%;
-  width: 46%;
-  background-color: var(--jaune);
-  border-radius: 20px;
-  bottom: -50%;
-  left: 50%;
-  font-size: 22px;
-  color: #fff;
-  font-weight: bold;
 }
 .titre {
-  font-size: 52px;
-  font-weight: bold;
-  color: rgb(134, 131, 131);
-  line-height: 0.9;
+  color: #132254;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 132%; /* 55.44px */
 }
 .modules {
   height: 90%;
@@ -104,4 +74,22 @@
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+.button {
+  position: absolute;
+  width: 328px;
+  height: 75px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: #132254;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  text-transform: uppercase;
+  bottom: 5%;
+  left: 40%;
 }

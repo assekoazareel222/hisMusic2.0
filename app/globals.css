@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DIN+Condensed:wght@400&display=swap");
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,9 +20,10 @@
   }
 }
 
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.body {
+  width: 100%;
+  height: 6702px;
+  font-family: "DIN Condensed", sans-serif;
 }
 
 @layer utilities {
