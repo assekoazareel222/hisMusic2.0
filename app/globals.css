@@ -50,6 +50,46 @@ label {
   height: 6702px;
   font-family: "DIN Condensed", sans-serif;
 }
+.section1 {
+  background-image: url(../app/public/section1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  width: 100%; /* ou une largeur spécifique */
+  height: 120vh; /* ou une hauteur spécifique */
+}
+.section2 {
+  background-image: url(../app/public/testpng.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  width: 100%; /* ou une largeur spécifique */
+  height: 120vh; /* ou une hauteur spécifique */
+}
+.section3 {
+  background-color: aqua;
+
+  background-image: url(../app/public/Group\ 7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section4 {
+  background-color: white;
+}
+.section5 {
+  background-image: url(../app/public/Page5\ BBckground.png);
+  background-size: cover;
+
+  background-position: center;
+  width: 100%; /* ou une largeur spécifique */
+  height: 120vh; /* ou une hauteur spécifique */
+}
+.section6 {
+  background-image: url(../app/public/Group\ 8.png);
+  background-size: cover;
+}
 
 @layer utilities {
   .text-balance {

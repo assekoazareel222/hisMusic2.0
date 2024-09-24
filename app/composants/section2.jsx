@@ -1,5 +1,6 @@
 import styles from "./section2.module.css";
 import { Button } from "./button";
+import Link from "next/link";
 
 import Image from "next/image";
 
