@@ -1,13 +1,12 @@
 import styles from "./setion3.module.css";
 import { Button } from "./button";
-import Link from "next/link";
 
 import Image from "next/image";
 
 export const Section3 = () => {
   return (
     <div className={styles.containe}>
-      <div className={styles.contentText}>
+      {/* <div className={styles.contentText}>
         <div className={styles.titre}>Le mot de l’instructeur</div>
 
         <div className={styles.text}>
@@ -27,14 +26,10 @@ export const Section3 = () => {
       <div className={styles.contentR}>
         <div className={styles.image}></div>
         <div className={styles.formBtn}>
-          <button className={styles.btn}>
-            <Link href="https://hismusicinstitute.com/">
-              SOUSCRIRE MAINTENANT
-            </Link>
-          </button>
+          <button className={styles.btn}>SOUSCRIRE MAINTENANT</button>
           <div className={styles.form}></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

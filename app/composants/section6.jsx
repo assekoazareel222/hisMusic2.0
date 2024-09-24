@@ -34,7 +34,7 @@ export const Section6 = () => {
               </li>
               <li className={styles.li}>EQ GRAPHIQUE</li>
               <li className={styles.li}>EQ PARAMETRE</li>
-              <li className={styles.li}>TECHNIQUE D'EQ</li>
+              <li className={styles.li}>TECHNIQUE D&EQ</li>
             </ul>
             <ul className={styles.ul}>
               <li className={styles.li}>
@@ -64,16 +64,9 @@ export const Section6 = () => {
         </div>
       </div>
       <div className={styles.right}>
-        {" "}
-        <div className={styles.Image}>
-          <div className={styles.laptop}></div>
-          <div className={styles.phone}></div>
-          <div className={styles.form}></div>
-          <button className={styles.button}>
-            <Button />
-          </button>
-        </div>
+        <div className={styles.img}></div>
       </div>
+      <button className={styles.button}>Debuter la formation</button>
     </div>
   );
 };
