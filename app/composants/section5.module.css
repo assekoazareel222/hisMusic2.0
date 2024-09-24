@@ -34,6 +34,7 @@
   height: 50px;
   background-repeat: no-repeat;
   margin-left: 10px;
+<<<<<<< HEAD
 }
 .blocs1{
   position: absolute;
@@ -78,4 +79,6 @@
   z-index:100;
   bottom: 19%; 
 
+=======
+>>>>>>> b947edb02808c6269b38eef4decff4f1cfeb1f37
 }
