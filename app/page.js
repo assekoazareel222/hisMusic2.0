@@ -15,7 +15,9 @@ export default function Home() {
       <div className="section3"></div>
       <div className="section4"></div>
       <div className="section5"></div>
-      <div className="section6"></div>
+      <div className="section6"> 
+        <Section6 />
+      </div>
     </div>
   );
 }
