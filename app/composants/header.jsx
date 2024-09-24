@@ -1,12 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-
+import Link from "next/link";
 import styles from "./header.module.css";
 import Image from "next/image";
 import { Form } from "./formulaire1";
 import Head from "next/head";
-
 export const Header = () => {
   // État pour gérer la visibilité du formulaire
   const [isFormVisible, setFormVisible] = useState(false);
@@ -30,7 +29,9 @@ export const Header = () => {
         </p>
       </div>
       <div className={styles.groupB}>
-        <button className={styles.btn1}>Débuter la formation</button>
+        <button className={styles.btn1}>
+          <Link href="../cours_gratuit"> Débuter la formation</Link>{" "}
+        </button>
         <button className={styles.btn2} onClick={handleButtonClick}>
           Acceder au cours gratuit
         </button>

@@ -19,7 +19,32 @@
     --rose: rgba(223, 36, 71, 1);
   }
 }
+input[type="checkbox"] {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  appearance: none; /* Retire le style par défaut */
+  background-color: white;
+  border: 2px solid #002855;
+  border-radius: 4px;
+  position: relative;
+}
 
+input[type="checkbox"]:checked::after {
+  content: "✔";
+  font-size: 14px;
+  color: #002855;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+}
+
+label {
+  font-size: 14px;
+  line-height: 1.5;
+  cursor: pointer;
+}
 .body {
   width: 100%;
   height: 6702px;
