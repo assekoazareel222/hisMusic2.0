@@ -22,29 +22,7 @@
 }
 .img {
   width: 80%;
-<<<<<<< HEAD
   height: 50%;
-=======
-  background: linear-gradient(rgba(0, 138, 207, 0.685), rgba(4, 152, 226, 0.5)),
-    url(../public/Page6\ Bckground.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  position: relative;
-}
-.Image {
-  top: 20%;
-  right: 60%;
-  position: absolute;
-  height: 54%;
-  width: 85%;
-  z-index: 1000;
-}
-.laptop {
-  height: 100%;
-  width: 100%;
->>>>>>> 6a2aefdd130498357498a7c80db50c913ee2e1f1
   background-image: url(../public/Mac+Phone.png);
   background-position: center;
   background-size: contain;
