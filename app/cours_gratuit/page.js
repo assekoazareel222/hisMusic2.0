@@ -87,7 +87,7 @@ export default function Home() {
                   checked
                 />
                 <label className={style.label} for="checkbox">
-                  J'accepte de recevoir des communications de la part de
+                  J&accepte de recevoir des communications de la part de
                   Hismusic Institute.
                 </label>
               </div>
@@ -96,7 +96,7 @@ export default function Home() {
                 type="submit"
                 className={`${style.btn} w-full bg-blue-900 text-white py-3 rounded-md mt-4 hover:bg-blue-800 transition duration-200`}
               >
-                Je m'inscris
+                Je m&inscris
               </button>
             </form>
           </div>
