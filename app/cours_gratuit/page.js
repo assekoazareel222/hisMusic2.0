@@ -104,7 +104,7 @@ export default function Home() {
       </div>
       <div className={style.right}>
         <div className={style.text}>
-          Accédez à plus de xx heures de cours et devenez{" "}
+          Accédez à plus de 100 heures de cours et devenez{" "}
           <span className={style.text2}>assistant ingénieur du son</span>
         </div>
       </div>

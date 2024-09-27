@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import styles from "./header.module.css";
 import Image from "next/image";
-import { Form } from "./formulaire1";
 import Head from "next/head";
 export const Header = () => {
   // État pour gérer la visibilité du formulaire
@@ -24,8 +23,8 @@ export const Header = () => {
       </div>
       <div className={styles.info}>
         <p className={styles.inside}>
-          Notre formation 100% online vous donne toutes les clés pour devenir un
-          assistant ingénieur du son hors pair.
+          Notre formation 100% online vous donne toutesles clés pour <br />
+          devenir un assistant ingénieur du son hors pair.
         </p>
       </div>
       <div className={styles.groupB}>

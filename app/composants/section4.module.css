@@ -6,3 +6,12 @@
   background-size: cover;
   object-fit: cover;
 }
+.text {
+  color: #132254;
+  font-family: Poppins;
+  font-size: 148px;
+  font-style: normal;
+  line-height: 112%; /* 143.36px */
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
