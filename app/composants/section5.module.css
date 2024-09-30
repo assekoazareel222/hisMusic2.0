@@ -34,3 +34,39 @@
   background-repeat: no-repeat;
   margin-left: 10px;
 }
+
+.bton {
+  width: 328px;
+  height: 75px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: #fcc42f;
+  color: #132254;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  text-transform: uppercase;
+}
+
+.bton2{
+  height: 75px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  border: 2px solid #fcc42f;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
