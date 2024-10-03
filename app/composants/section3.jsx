@@ -1,35 +1,32 @@
 import styles from "./setion3.module.css";
-import { Button } from "./button";
-
-import Image from "next/image";
 
 export const Section3 = () => {
   return (
     <div className={styles.containe}>
-      {/* <div className={styles.contentText}>
-        <div className={styles.titre}>Le mot de l’instructeur</div>
-
-        <div className={styles.text}>
-          <div className={styles.nom}>Hyasine Do Rego</div>
-          <p>
-            Fondateur & Ingénieur en Chef à <strong>HDR Live</strong> <br />
-            Fondateur & Instructeur principal à{" "}
-            <strong>HISMUSIC INSTITUTE</strong> <br />
-            BSc. Audio Engineering Technology, Delta Music Institute, DSU, USA,{" "}
-            <br /> MSc. Music Technology, Purdue School of Engineering &
-            Technology, IUPUI, USA
-          </p>
+      <section className="w-[100%] h-[100%] justify-start flex flex-col ml-[4%]">
+        <h1 className="text-5xl font-extrabold relative top-16 text-blue-950"> Le mot de l’instructeur</h1>
+        <div className="relative items-center justify-start flex w-[100%] h-[90%]">
+          <iframe
+            className=""
+            id="youtube-player"
+            style={{ width: "60%", height: "75%" }}
+            src="https://www.youtube.com/embed/xHDF6XWZqeg?si=Jnd7VhimpMAZBczJ"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
-        <div className={styles.video}></div>
-      </div>
-
-      <div className={styles.contentR}>
-        <div className={styles.image}></div>
-        <div className={styles.formBtn}>
-          <button className={styles.btn}>SOUSCRIRE MAINTENANT</button>
-          <div className={styles.form}></div>
-        </div>
-      </div> */}
+        <div className="relative -top-14 flex flex-col font-semibold text-blue-950">
+        <h2 className="font-fasthand font-light text-4xl">Hyacine do Rego</h2>
+        <h3 className="text-xl mt-[1%]">Fondateur & Ingénieur en Chef à <span className="font-black">HDR Live</span> <br />
+            Fondateur & Instructeur principal à <span className="font-black">HISMUSIC INSTITUTE</span> <br />
+            BSc. Audio Engineering Technology, Delta Music Institute, DSU, USA,<br />
+            MSc. Music Technology, Purdue School of Engineering & Technology,<br />
+            IUPUI, USA</h3>
+            </div>
+      </section>
     </div>
   );
 };
+
